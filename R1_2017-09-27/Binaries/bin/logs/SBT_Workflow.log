@@ -1,0 +1,73 @@
+     [echo]  Executing MakeSharedLib Target 
+     [echo] TC_ROOT: D:\dump\112
+     [echo] TC_INCLUDE_CPP: D:\dump\112\include_cpp
+     [echo] TC_LIB: D:\dump\112\lib
+
+MakeSharedLib:
+     [echo]  Compiling and linking SBT_Workflow . . . .
+       [cc] Starting dependency analysis for 2 files.
+       [cc] 2 files are up to date.
+       [cc] 0 files to be recompiled from dependency analysis.
+       [cc] 29 total files to be compiled.
+       [cc] SBT_Utilities_Common.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\New folder\SBT_Utilities_Common.cpp(14) : fatal error C1083: Cannot open include file: 'SBT_Utilities_Common.h': No such file or directory
+       [cc] SBT_Workflow_grouphandler.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\New folder\SBT_Workflow_grouphandler.cpp(43) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] SBT_Utilities.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\BOM\SBT_Utilities.cpp(27) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] SBT_01.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\New folder\SBT_01.cpp(33) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] SBT_Workflow_register_handler.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\New folder\SBT_Workflow_register_handler.cpp(27) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] SBT_User_ItemID.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\BOM\SBT_User_ItemID.cpp(28) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] SBT_Invoke_PDM_Server.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\New folder\SBT_Invoke_PDM_Server.cpp(28) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] SBT_Workflow_dll.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\New folder\SBT_Workflow_dll.cpp(31) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] SBT_Workflow_CCR_Handlers.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\New folder\SBT_Workflow_CCR_Handlers.cpp(42) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] SBT_Item.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\New folder\SBT_Item.cpp(16) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] SBT_Query.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\BOM\SBT_Query.cpp(17) : fatal error C1083: Cannot open include file: 'SBT_Query.h': No such file or directory
+       [cc] sbt_rh_checkRevsInProc.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\BOM\sbt_rh_checkRevsInProc.cpp(47) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] SBT_File.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\New folder\SBT_File.cpp(19) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] SBT_Workflow.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\New folder\SBT_Workflow.cpp(20) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] SBT_Workspaceobject.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\New folder\SBT_Workspaceobject.cpp(15) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] SBT_User_Properties.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\BOM\SBT_User_Properties.cpp(16) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] SBT_ItemRevision.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\BOM\SBT_ItemRevision.cpp(14) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] SBT_Dataset.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\New folder\SBT_Dataset.cpp(25) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] SBT_Utilities_Mail.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\New folder\SBT_Utilities_Mail.cpp(39) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] SBT_RH_checkOwningGroup.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\BOM\SBT_RH_checkOwningGroup.cpp(39) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] Generating Code...
+       [cc] Compiling...
+       [cc] SBT_Utilities_d.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\New folder\SBT_Utilities_d.cpp(17) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] rghStrs.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\New folder\rghStrs.cpp(13) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] SBT_Workflow_Status_Handlers.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\New folder\SBT_Workflow_Status_Handlers.cpp(38) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] SBT_Workflow_CO_Handlers.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\New folder\SBT_Workflow_CO_Handlers.cpp(39) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] SBT_Workflow_register_properties.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\New folder\SBT_Workflow_register_properties.cpp(23) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] SBT_Workflow_Attributes.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\New folder\SBT_Workflow_Attributes.cpp(17) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] SBT_User_BOMCompareMode.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\BOM\SBT_User_BOMCompareMode.cpp(32) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] SBT_ah_multiselect_effectivity.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\New folder\SBT_ah_multiselect_effectivity.cpp(42) : fatal error C1083: Cannot open include file: 'SBT_ah_multiselect_effectivity.h': No such file or directory
+       [cc] SBT_Workflow_Elec3D_Handlers.cpp
+       [cc] D:\tmp\ITK\DLL_Projects\SBT_Workflow\src\New folder\SBT_Workflow_Elec3D_Handlers.cpp(42) : fatal error C1083: Cannot open include file: 'sy_debug.h': No such file or directory
+       [cc] Generating Code...
+     [echo]  Failed to create SBT_Workflow.dll 
